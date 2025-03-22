@@ -6,14 +6,14 @@
   
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Screenshot](#Screenshot)
-  - [Walkthrough Video](#Walkthrough-Video)
-  - [Deployment](#Deployment)
-  - [Contribution](#Contribution)
-  - [Tests](#Tests)
-  - [License](#License)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Screenshot](#screenshot)
+  - [Walkthrough Video](#walkthrough-video)
+  - [Deployment](#deployment)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [License](#license)
   - [Questions](#questions)
 
   ## Installation

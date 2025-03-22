@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
   if (license === 'None') {
      return '';
   } else {
-    return `[License](#License)`;
+    return `[License](#license)`;
   }
 }
 
@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
   if (license === 'None') {
     return `## License`
     
-    `This project is not licensed.`;
+    `This project is not ${license} licensed.`;
   }
 }
 
