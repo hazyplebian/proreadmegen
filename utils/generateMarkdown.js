@@ -35,9 +35,48 @@ function generateMarkdown(data) {
 
   ${renderLicenseBadge(data.license)}
 
-  ${renderLicenseLink(data.license)}
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Screenshot](#Screenshot)
+  - [Walkthrough Video](#Walkthrough-Video)
+  - [Deployment](#Deployment)
+  - [Contribution](#Contribution)
+  - [Tests](#Tests)
+  - ${renderLicenseLink(data.license)}
+  - [Questions](#Questions)
+
+  ## Installation
+  ${data.installation}
+
+  ## Usage
+  ${data.usage}
+
+  ## Screenshot
+  (${data.screenshot})
+
+  ## Walkthrough Video
+  (${data.video})
+
+  ## Deployment
+  (${data.link})
+
+  ## Contribution
+  ${data.contribution}
+
+  ## Tests
+  ${data.test}
 
   ${renderLicenseSection(data.license)}
+ 
+
+  ## Questions
+  If you have any questions, please contact me at ${data.email}.
+
+  You can find more of my work at [${data.username}](
 
 `;
 }
