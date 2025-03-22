@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
   if (license === 'None') {
      return '';
   } else {
-    return `[License](#license)`;
+    return `- [License](#license)`;
   }
 }
 
@@ -23,9 +23,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === 'None') {
-    return `## License`
-    
-    `This project is not ${license} licensed.`;
+    return `## License\n\nThis project is not licensed.`;
+  } else {
+    return `## License\n\nThis project is licensed under the ${license} license.`;
   }
 }
 
@@ -46,7 +46,7 @@ function generateMarkdown(data) {
   - [Deployment](#deployment)
   - [Contribution](#contribution)
   - [Tests](#tests)
-  - ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.license)}
   - [Questions](#questions)
 
   ## Installation
@@ -76,7 +76,7 @@ function generateMarkdown(data) {
   ## Questions
   If you have any questions, please contact me at ${data.email}.
 
-  You can find more of my work at [${data.username}](
+  You can find more of my work at [${data.username}]
 
 `;
 }

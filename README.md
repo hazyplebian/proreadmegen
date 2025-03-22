@@ -37,11 +37,13 @@
   ## Tests
   
 
-  undefined
+  ## License
+
+This project is licensed under the BSD license.
  
 
   ## Questions
   If you have any questions, please contact me at .
 
-  You can find more of my work at [](
+  You can find more of my work at []
 
