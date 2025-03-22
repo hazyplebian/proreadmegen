@@ -39,15 +39,15 @@ function generateMarkdown(data) {
   ${data.description}
 
   ## Table of Contents
-  - [Installation](#Installation)
-  - [Usage](#Usage)
-  - [Screenshot](#Screenshot)
-  - [Walkthrough Video](#Walkthrough-Video)
-  - [Deployment](#Deployment)
-  - [Contribution](#Contribution)
-  - [Tests](#Tests)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Screenshot](#screenshot)
+  - [Walkthrough Video](#walkthrough-video)
+  - [Deployment](#deployment)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
   - ${renderLicenseLink(data.license)}
-  - [Questions](#Questions)
+  - [Questions](#questions)
 
   ## Installation
   ${data.installation}
